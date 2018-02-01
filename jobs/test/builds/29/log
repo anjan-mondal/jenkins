@@ -1,0 +1,65 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building remotely on [8mha:////4Mm0lebg4mWyfci05oup8f5bjdGLuSd2iYMuIKVjFPOlAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (pi) in workspace /home/rahul/SeleniumPi/workspace/test
+[WS-CLEANUP] Deleting project workspace...
+Cloning the remote Git repository
+Cloning repository https://github.com/anjan-mondal/facebooklogin.git
+ > /usr/bin/git init /home/rahul/SeleniumPi/workspace/test # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/facebooklogin.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/facebooklogin.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/facebooklogin.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/facebooklogin.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/facebooklogin.git
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/facebooklogin.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8bd14ac1f26dd41983082554e4d7da8f07bc03f6 (refs/remotes/origin/master)
+Commit message: "test"
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 8bd14ac1f26dd41983082554e4d7da8f07bc03f6
+ > /usr/bin/git rev-list 78f56a026750208ba63f863159f75b240038338a # timeout=10
+[test] $ /bin/sh -xe /tmp/jenkins8739032208780825512.sh
++ Display=:1 xvfb-run java -cp /home/rahul/SeleniumPi/workspace/test/PiSelenium/jars/selenium-server-standalone.jar /home/rahul/SeleniumPi/workspace/test/PiSelenium/jars/testng.jar
+Error: Could not find or load main class .home.rahul.SeleniumPi.workspace.test.PiSelenium.jars.testng.jar
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: anjanmondal@gmail.com
+ERROR: 534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbsy
+534-5.7.14 KYPF7V9E93nA_0IU-mgGkG-SaODYxU6XyCiAwQrxk5zjzKuvQ-nh6-Spj4B8_7E7kX_bT_
+534-5.7.14 u4b2AG7v7NhE19CjYV-txVH7PjW26Mz4r6frz3enzIH-6AwEM9aoupeCffGXluIoK7XxBp
+534-5.7.14 OAjSfqz-gKKq5Gr-peDvSrgBIoNWWzIvV2J41aQwQD04QonOpUmB6bUQlXgYuu3cyyE9Qy
+534-5.7.14 uToF0MKliyRzUaPJKzt_43bUFKnVk> Please log in via your web browser and
+534-5.7.14 then try again.
+534-5.7.14  Learn more at
+534 5.7.14  https://support.google.com/mail/answer/78754 a9sm10137749pgf.23 - gsmtp
+
+[8mha:////4EICDpwvoLHtApI4/8vMbBl3gzJrAY6yR8Auk0G3ZsBqAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mjavax.mail.AuthenticationFailedException: 534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbsy
+534-5.7.14 KYPF7V9E93nA_0IU-mgGkG-SaODYxU6XyCiAwQrxk5zjzKuvQ-nh6-Spj4B8_7E7kX_bT_
+534-5.7.14 u4b2AG7v7NhE19CjYV-txVH7PjW26Mz4r6frz3enzIH-6AwEM9aoupeCffGXluIoK7XxBp
+534-5.7.14 OAjSfqz-gKKq5Gr-peDvSrgBIoNWWzIvV2J41aQwQD04QonOpUmB6bUQlXgYuu3cyyE9Qy
+534-5.7.14 uToF0MKliyRzUaPJKzt_43bUFKnVk> Please log in via your web browser and
+534-5.7.14 then try again.
+534-5.7.14  Learn more at
+534 5.7.14  https://support.google.com/mail/answer/78754 a9sm10137749pgf.23 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:809)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:752)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:669)
+	at javax.mail.Service.connect(Service.java:317)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:170)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:81)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:730)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:676)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:621)
+	at hudson.model.Run.execute(Run.java:1760)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:415)
+Finished: FAILURE

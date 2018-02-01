@@ -1,0 +1,54 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building on master in workspace C:\Users\anjan\.jenkins\workspace\test
+[WS-CLEANUP] Deleting project workspace...
+java.io.IOException: Failed to mkdirs: C:\Users\anjan\.jenkins\workspace\test
+	at hudson.FilePath.mkdirs(FilePath.java:1171)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1210)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:560)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:86)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:485)
+	at hudson.model.Run.execute(Run.java:1735)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:415)
+Email was triggered for: Failure - Any
+Sending email for trigger: Failure - Any
+java.nio.file.AccessDeniedException: C:\Users\anjan\.jenkins\workspace\test\test-output\emailable-report.html
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(Unknown Source)
+	at java.nio.file.Files.newInputStream(Unknown Source)
+	at hudson.FilePath.read(FilePath.java:1771)
+	at hudson.FilePath.readToString(FilePath.java:1864)
+	at hudson.FilePath$readToString$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:150)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:152)
+	at org.kohsuke.groovy.sandbox.impl.Checker$checkedCall$0.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:194)
+	at Script1.run(Script1.groovy:2)
+	at hudson.plugins.emailext.ExtendedEmailPublisher.executeScript(ExtendedEmailPublisher.java:623)
+	at hudson.plugins.emailext.ExtendedEmailPublisher.executePresendScript(ExtendedEmailPublisher.java:573)
+	at hudson.plugins.emailext.ExtendedEmailPublisher.sendMail(ExtendedEmailPublisher.java:456)
+	at hudson.plugins.emailext.ExtendedEmailPublisher._perform(ExtendedEmailPublisher.java:441)
+	at hudson.plugins.emailext.ExtendedEmailPublisher.perform(ExtendedEmailPublisher.java:349)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:730)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:676)
+	at hudson.model.Build$BuildExecution.cleanUp(Build.java:196)
+	at hudson.model.Run.execute(Run.java:1782)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:415)
+
+Sending email to: anjanmondal@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: FAILURE

@@ -1,0 +1,39 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building remotely on [8mha:////4Mm0lebg4mWyfci05oup8f5bjdGLuSd2iYMuIKVjFPOlAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (pi) in workspace /home/rahul/SeleniumPi/workspace/test
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git init /home/rahul/SeleniumPi/workspace/test # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/seleniumFramework.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/seleniumFramework.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/seleniumFramework.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/seleniumFramework.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision dcf97eacf0be91cf05272da59682a9f948a0f477 (refs/remotes/origin/master)
+Commit message: "update"
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f dcf97eacf0be91cf05272da59682a9f948a0f477
+ > /usr/bin/git rev-list 105acddcc60eb78fea4267c48aa02abff0a6a73e # timeout=10
+[test] $ /bin/sh -xe /tmp/jenkins7825429041314496947.sh
++ sh /home/rahul/SeleniumPi/workspace/test/runlinux.sh
+[TestNG] Running:
+  /home/rahul/SeleniumPi/workspace/test/testng.xml
+
+/home/rahul/SeleniumPi/workspace/test
+/home/rahul/SeleniumPi/workspace/test
+
+===============================================
+Parallel test suite
+Total tests run: 2, Failures: 0, Skips: 2
+Configuration Failures: 1, Skips: 3
+===============================================
+
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: anjanmondal@gmail.com
+Finished: FAILURE

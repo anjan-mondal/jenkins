@@ -1,0 +1,89 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building on master in workspace C:\Users\anjan\.jenkins\workspace\TestSuite1
+[WS-CLEANUP] Deleting project workspace...
+No emails were triggered.
+[TestSuite1] $ cmd /c call C:\Users\anjan\AppData\Local\Temp\jenkins5680134873668926460.bat
+
+C:\Users\anjan\.jenkins\workspace\TestSuite1>java -jar C:\Users\anjan\Desktop\test\complete.jar int int TestSuite1 
+TestSuite1
+
+C:\Users\anjan\.jenkins\workspace\TestSuite1>echo Suite name TestSuite1 
+Suite name TestSuite1
+
+C:\Users\anjan\.jenkins\workspace\TestSuite1>c:
+
+C:\Users\anjan\.jenkins\workspace\TestSuite1>cd C:\Program Files (x86)\SmartBear\SoapUI-5.4.0\bin 
+
+C:\Program Files (x86)\SmartBear\SoapUI-5.4.0\bin>testrunner.bat -sTestSuite1 -r -a -j -J -fC:\\Users\\anjan\\Desktop\\test C:\\Users\\anjan\\Desktop\\test\\weather-soapui-project.xml 
+SoapUI 5.4.0 TestCase Runner
+Configuring log4j from [C:\Program Files (x86)\SmartBear\SoapUI-5.4.0\bin\soapui-log4j.xml]
+log4j:ERROR setFile(null,true) call failed.
+java.io.FileNotFoundException: global-groovy.log (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:289)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:163)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:256)
+	at org.apache.log4j.xml.DOMConfigurator.parseAppender(DOMConfigurator.java:220)
+	at org.apache.log4j.xml.DOMConfigurator.findAppenderByName(DOMConfigurator.java:150)
+	at org.apache.log4j.xml.DOMConfigurator.findAppenderByReference(DOMConfigurator.java:163)
+	at org.apache.log4j.xml.DOMConfigurator.parseChildrenOfLoggerElement(DOMConfigurator.java:425)
+	at org.apache.log4j.xml.DOMConfigurator.parseCategory(DOMConfigurator.java:345)
+	at org.apache.log4j.xml.DOMConfigurator.parse(DOMConfigurator.java:827)
+	at org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:712)
+	at org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:604)
+	at org.apache.log4j.xml.XMLWatchdog.doOnChange(DOMConfigurator.java:861)
+	at org.apache.log4j.helpers.FileWatchdog.checkAndConfigure(FileWatchdog.java:88)
+	at org.apache.log4j.helpers.FileWatchdog.<init>(FileWatchdog.java:57)
+	at org.apache.log4j.xml.XMLWatchdog.<init>(DOMConfigurator.java:853)
+	at org.apache.log4j.xml.DOMConfigurator.configureAndWatch(DOMConfigurator.java:584)
+	at com.eviware.soapui.DefaultSoapUICore.initLog(DefaultSoapUICore.java:492)
+	at com.eviware.soapui.DefaultSoapUICore.init(DefaultSoapUICore.java:136)
+	at com.eviware.soapui.DefaultSoapUICore.<init>(DefaultSoapUICore.java:132)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.createSoapUICore(AbstractSoapUIRunner.java:216)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:192)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:122)
+23:39:47,364 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\anjan\soapui-settings.xml]
+23:39:48,414 INFO  [PluginManager] 0 plugins loaded in 2 ms
+23:39:48,414 INFO  [DefaultSoapUICore] All plugins loaded
+23:39:49,440 INFO  [WsdlProject] Loaded project from [file:/C:/Users/anjan/Desktop/test/weather-soapui-project.xml]
+23:39:49,446 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [weather]
+23:39:49,447 INFO  [SoapUITestCaseRunner] Running TestSuite [TestSuite1], runType = SEQUENTIAL
+23:39:49,471 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GetCitiesByCountry TestCase]
+23:39:49,477 INFO  [SoapUITestCaseRunner] running step [GetCitiesByCountry]
+23:39:49,927 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+23:39:49,928 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /globalweather.asmx HTTP/1.1
+23:39:50,241 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+23:39:50,244 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+23:39:50,283 INFO  [SoapUITestCaseRunner] Assertion [Invalid HTTP Status Codes] has status VALID
+23:39:50,283 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+23:39:50,297 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GetCitiesByCountry TestCase], time taken: 797ms, status: FINISHED
+23:39:50,298 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GetWeather TestCase]
+23:39:50,298 INFO  [SoapUITestCaseRunner] running step [GetWeather]
+23:39:50,302 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+23:39:50,304 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+23:39:50,304 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /globalweather.asmx HTTP/1.1
+23:39:50,616 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+23:39:50,616 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+23:39:50,623 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GetWeather TestCase], time taken: 318ms, status: FINISHED
+23:39:50,624 INFO  [SoapUITestCaseRunner] TestSuite [TestSuite1] finished with status [FINISHED] in 1171ms
+
+SoapUI 5.4.0 TestCaseRunner Summary
+-----------------------------
+Time Taken: 1177ms
+Total TestSuites: 1
+Total TestCases: 2 (0 failed)
+Total TestSteps: 2
+Total Request Assertions: 2
+Total Failed Assertions: 0
+Total Exported Results: 2
+
+C:\Users\anjan\.jenkins\workspace\TestSuite1>exit 0 
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: anjanmondal@gmail.com
+Finished: SUCCESS

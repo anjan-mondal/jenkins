@@ -1,0 +1,25 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building on master in workspace C:\Users\anjan\.jenkins\workspace\test
+Cloning the remote Git repository
+Cloning repository https://github.com/anjan-mondal/automation99.git
+ > c:\Program Files\Git\bin\git.exe init C:\Users\anjan\.jenkins\workspace\test # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/automation99.git
+ > c:\Program Files\Git\bin\git.exe --version # timeout=10
+ > c:\Program Files\Git\bin\git.exe fetch --tags --progress https://github.com/anjan-mondal/automation99.git +refs/heads/*:refs/remotes/origin/*
+ > c:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/anjan-mondal/automation99.git # timeout=10
+ > c:\Program Files\Git\bin\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > c:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/anjan-mondal/automation99.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/automation99.git
+ > c:\Program Files\Git\bin\git.exe fetch --tags --progress https://github.com/anjan-mondal/automation99.git +refs/heads/*:refs/remotes/origin/*
+ > c:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > c:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 70b76cfbc9e0424a80252357d0a97d88ed912393 (refs/remotes/origin/master)
+Commit message: "commmit"
+ > c:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > c:\Program Files\Git\bin\git.exe checkout -f 70b76cfbc9e0424a80252357d0a97d88ed912393
+ > c:\Program Files\Git\bin\git.exe rev-list 70b76cfbc9e0424a80252357d0a97d88ed912393 # timeout=10
+[WS-CLEANUP] Deleting project workspace...[WS-CLEANUP] done
+Finished: SUCCESS

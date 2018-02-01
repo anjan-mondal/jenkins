@@ -1,0 +1,66 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building remotely on [8mha:////4Mm0lebg4mWyfci05oup8f5bjdGLuSd2iYMuIKVjFPOlAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (pi) in workspace /media/rahul/U/SeleniumPi/workspace/soaptest
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git init /media/rahul/U/SeleniumPi/workspace/soaptest # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/soapuipi.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/soapuipi.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/soapuipi.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/soapuipi.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7177805e75b5a6ba739a5b3e8ca782070274424e (refs/remotes/origin/master)
+Commit message: "fdef"
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 7177805e75b5a6ba739a5b3e8ca782070274424e
+ > /usr/bin/git rev-list 7177805e75b5a6ba739a5b3e8ca782070274424e # timeout=10
+[soaptest] $ /bin/sh -xe /tmp/jenkins6344787592335435421.sh
++ sh /media/rahul/U/SeleniumPi/workspace/soaptest/RunLinux.sh
+================================
+=
+= SOAPUI_HOME = /home/rahul/soap/SoapUI-5.3.0
+=
+================================
+2017-08-14 21:08:04,046 [main] WARN  com.eviware.soapui.SoapUI - Could not find jfxrt.jar. Internal browser will be disabled.
+SoapUI 5.3.0 TestCase Runner
+usage: testrunner [options] <soapui-project-file>
+ -A         Turns on exporting of all results using folders instead of
+            long filenames
+ -a         Turns on exporting of all results
+ -c <arg>   Sets the testcase
+ -D <arg>   Sets system property with name=value
+ -d <arg>   Sets the domain
+ -e <arg>   Sets the endpoint
+ -f <arg>   Sets the output folder to export results to
+ -G <arg>   Sets global property with name=value
+ -H <arg>   Adds a custom HTTP Header to all outgoing requests
+            (name=value), can be specified multiple times
+ -h <arg>   Sets the host
+ -I         Do not stop if error occurs, ignore them
+ -i         Enables Swing UI for scripts
+ -J         Sets the output to include JUnit XML reports adding test
+            properties to the report
+ -j         Sets the output to include JUnit XML reports
+ -M         Creates a Test Run Log Report in XML format
+ -m         Sets the maximum number of TestStep errors to save for each
+            testcase
+ -P <arg>   Sets or overrides project property with name=value
+ -p <arg>   Sets the password
+ -r         Prints a small summary report
+ -S         Saves the project after running the tests
+ -s <arg>   Sets the testsuite
+ -t <arg>   Sets the soapui-settings.xml file to use
+ -u <arg>   Sets the username
+ -v <arg>   Sets password for soapui-settings.xml file
+ -w <arg>   Sets the WSS password type, either 'Text' or 'Digest'
+ -x <arg>   Sets project password for decryption if project is encrypted
+Missing SoapUI project file..
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: anjanmondal@gmail.com
+Finished: FAILURE

@@ -1,0 +1,69 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building on master in workspace C:\Users\anjan\.jenkins\workspace\soaptest
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+No emails were triggered.
+[soaptest] $ cmd /c call C:\Users\anjan\AppData\Local\Temp\jenkins5810095470190398296.bat
+
+C:\Users\anjan\.jenkins\workspace\soaptest>java -jar C:\Users\anjan\Desktop\test\complete.jar int int soaptest 
+soaptest
+
+C:\Users\anjan\.jenkins\workspace\soaptest>echo Suite name soaptest 
+Suite name soaptest
+
+C:\Users\anjan\.jenkins\workspace\soaptest>c:
+
+C:\Users\anjan\.jenkins\workspace\soaptest>cd C:\Program Files (x86)\SmartBear\SoapUI-5.4.0\bin 
+
+C:\Program Files (x86)\SmartBear\SoapUI-5.4.0\bin>testrunner.bat -ssoaptest -r -a -j -J -fC:\\Users\\anjan\\Desktop\\test C:\\Users\\anjan\\Desktop\\test\\weather-soapui-project.xml 
+SoapUI 5.4.0 TestCase Runner
+Configuring log4j from [C:\Program Files (x86)\SmartBear\SoapUI-5.4.0\bin\soapui-log4j.xml]
+log4j:ERROR setFile(null,true) call failed.
+java.io.FileNotFoundException: global-groovy.log (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:289)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:163)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:256)
+	at org.apache.log4j.xml.DOMConfigurator.parseAppender(DOMConfigurator.java:220)
+	at org.apache.log4j.xml.DOMConfigurator.findAppenderByName(DOMConfigurator.java:150)
+	at org.apache.log4j.xml.DOMConfigurator.findAppenderByReference(DOMConfigurator.java:163)
+	at org.apache.log4j.xml.DOMConfigurator.parseChildrenOfLoggerElement(DOMConfigurator.java:425)
+	at org.apache.log4j.xml.DOMConfigurator.parseCategory(DOMConfigurator.java:345)
+	at org.apache.log4j.xml.DOMConfigurator.parse(DOMConfigurator.java:827)
+	at org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:712)
+	at org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:604)
+	at org.apache.log4j.xml.XMLWatchdog.doOnChange(DOMConfigurator.java:861)
+	at org.apache.log4j.helpers.FileWatchdog.checkAndConfigure(FileWatchdog.java:88)
+	at org.apache.log4j.helpers.FileWatchdog.<init>(FileWatchdog.java:57)
+	at org.apache.log4j.xml.XMLWatchdog.<init>(DOMConfigurator.java:853)
+	at org.apache.log4j.xml.DOMConfigurator.configureAndWatch(DOMConfigurator.java:584)
+	at com.eviware.soapui.DefaultSoapUICore.initLog(DefaultSoapUICore.java:492)
+	at com.eviware.soapui.DefaultSoapUICore.init(DefaultSoapUICore.java:136)
+	at com.eviware.soapui.DefaultSoapUICore.<init>(DefaultSoapUICore.java:132)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.createSoapUICore(AbstractSoapUIRunner.java:216)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:192)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:122)
+23:37:20,816 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\anjan\soapui-settings.xml]
+23:37:22,226 INFO  [PluginManager] 0 plugins loaded in 3 ms
+23:37:22,226 INFO  [DefaultSoapUICore] All plugins loaded
+23:37:23,188 INFO  [WsdlProject] Loaded project from [file:/C:/Users/anjan/Desktop/test/weather-soapui-project.xml]
+23:37:23,193 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [weather]
+23:37:23,194 ERROR [SoapUITestCaseRunner] java.lang.Exception: TestSuite with name [soaptest] is missing in Project [weather]
+23:37:23,195 ERROR [SoapUI] An error occurred [TestSuite with name [soaptest] is missing in Project [weather]], see error log for details
+java.lang.Exception: TestSuite with name [soaptest] is missing in Project [weather]
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:371)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:122)
+
+C:\Users\anjan\.jenkins\workspace\soaptest>exit 0 
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: anjanmondal@gmail.com
+Finished: SUCCESS

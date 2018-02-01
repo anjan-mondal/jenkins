@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.resourcedisposer.AsyncResourceDisposer plugin="resource-disposer@0.7">
+  <id>AsyncResourceDisposer</id>
+  <backlog class="java.util.Collections$SetFromMap" serialization="custom">
+    <unserializable-parents/>
+    <java.util.Collections_-SetFromMap>
+      <default>
+        <m class="concurrent-hash-map">
+          <entry>
+            <org.jenkinsci.plugins.resourcedisposer.AsyncResourceDisposer_-WorkItem>
+              <disposer reference="../../../../../../.."/>
+              <disposable class="hudson.plugins.ws_cleanup.Wipeout$DisposableImpl" plugin="ws-cleanup@0.34">
+                <node></node>
+                <path>C:\Users\anjan\.jenkins\workspace\soaptest_ws-cleanup_1517249312353</path>
+              </disposable>
+              <registered>2018-01-29 18:08:32.355 UTC</registered>
+              <lastState class="org.jenkinsci.plugins.resourcedisposer.Disposable$State$Purged">
+                <displayName>Purged successfully</displayName>
+              </lastState>
+              <disposableInfo>hudson.plugins.ws_cleanup.Wipeout$DisposableImpl:Workspace master:C:\Users\anjan\.jenkins\workspace\soaptest_ws-cleanup_1517249312353</disposableInfo>
+            </org.jenkinsci.plugins.resourcedisposer.AsyncResourceDisposer_-WorkItem>
+            <boolean>true</boolean>
+          </entry>
+        </m>
+      </default>
+    </java.util.Collections_-SetFromMap>
+  </backlog>
+</org.jenkinsci.plugins.resourcedisposer.AsyncResourceDisposer>

@@ -1,0 +1,17 @@
+Started by user [8mha:////4FYpTIbcb8IDPN3RhZ4OCsQyjwrhPF14SAtTou9aPiHQAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4EsFJmJqCQiv3jMGWqCfSOdhvBFUvmLR0OmCosAZcOxmAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (slave windows) in workspace C:\Users\ANJAN\Downloads\workspace\test
+ > c:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > c:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/anjan-mondal/automation99.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/automation99.git
+ > c:\Program Files\Git\bin\git.exe --version # timeout=10
+ > c:\Program Files\Git\bin\git.exe fetch --tags --progress https://github.com/anjan-mondal/automation99.git +refs/heads/*:refs/remotes/origin/*
+ > c:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > c:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 70b76cfbc9e0424a80252357d0a97d88ed912393 (refs/remotes/origin/master)
+Commit message: "commmit"
+ > c:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > c:\Program Files\Git\bin\git.exe checkout -f 70b76cfbc9e0424a80252357d0a97d88ed912393
+ > c:\Program Files\Git\bin\git.exe rev-list 70b76cfbc9e0424a80252357d0a97d88ed912393 # timeout=10
+[WS-CLEANUP] Deleting project workspace...[WS-CLEANUP] done
+Finished: SUCCESS

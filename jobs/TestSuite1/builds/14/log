@@ -1,0 +1,73 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building remotely on [8mha:////4Mm0lebg4mWyfci05oup8f5bjdGLuSd2iYMuIKVjFPOlAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (pi) in workspace /media/rahul/U/SeleniumPi/workspace/soaptest
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git init /media/rahul/U/SeleniumPi/workspace/soaptest # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/soapuipi.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/soapuipi.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/soapuipi.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/soapuipi.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba90058a90a0c459ae1b0fda6f6d4feefe77ac8f (refs/remotes/origin/master)
+Commit message: "hhh"
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f ba90058a90a0c459ae1b0fda6f6d4feefe77ac8f
+ > /usr/bin/git rev-list 30420025c3f6b67f37ab50a6f8bc7eb30131ebb3 # timeout=10
+[soaptest] $ /bin/sh -xe /tmp/jenkins3497381641639826264.sh
++ sh /media/rahul/U/SeleniumPi/workspace/soaptest/RunLinux.sh
+================================
+=
+= SOAPUI_HOME = /home/rahul/soap/SoapUI-5.3.0
+=
+================================
+2017-08-14 22:34:01,410 [main] WARN  com.eviware.soapui.SoapUI - Could not find jfxrt.jar. Internal browser will be disabled.
+SoapUI 5.3.0 TestCase Runner
+22:34:03,213 INFO  [DefaultSoapUICore] initialized soapui-settings from [/home/rahul/soapui-settings.xml]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22:34:05,287 INFO  [PluginManager] 0 plugins loaded in 5 ms
+22:34:05,288 INFO  [DefaultSoapUICore] All plugins loaded
+java.awt.HeadlessException: 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+	at sun.awt.HeadlessToolkit.getScreenSize(HeadlessToolkit.java:284)
+	at com.eviware.soapui.analytics.providers.BaseAnalyticsProvider.getStrScreenSize(BaseAnalyticsProvider.java:64)
+	at com.eviware.soapui.analytics.providers.GoogleAnalyticsProvider.getEventLabel(GoogleAnalyticsProvider.java:173)
+	at com.eviware.soapui.analytics.providers.GoogleAnalyticsProvider.buildParametersString(GoogleAnalyticsProvider.java:81)
+	at com.eviware.soapui.analytics.providers.GoogleAnalyticsProvider.trackAction(GoogleAnalyticsProvider.java:56)
+	at com.eviware.soapui.analytics.AnalyticsManager$3.run(AnalyticsManager.java:167)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+22:34:06,660 INFO  [SoapUI] File [/media/rahul/U/SeleniumPi/workspace/soaptest/Projects/googleAPI.xml] does not exist, trying URL instead
+22:34:06,661 ERROR [SoapUI] An error occurred [no protocol: /media/rahul/U/SeleniumPi/workspace/soaptest/Projects/googleAPI.xml], see error log for details
+java.net.MalformedURLException: no protocol: /media/rahul/U/SeleniumPi/workspace/soaptest/Projects/googleAPI.xml
+	at java.net.URL.<init>(URL.java:593)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:227)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:41)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:28)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:342)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:118)
+22:34:07,210 ERROR [SoapUITestCaseRunner] java.lang.Exception: Failed to load SoapUI project file [/media/rahul/U/SeleniumPi/workspace/soaptest/Projects/googleAPI.xml]
+22:34:07,212 ERROR [SoapUI] An error occurred [Failed to load SoapUI project file [/media/rahul/U/SeleniumPi/workspace/soaptest/Projects/googleAPI.xml]], see error log for details
+java.lang.Exception: Failed to load SoapUI project file [/media/rahul/U/SeleniumPi/workspace/soaptest/Projects/googleAPI.xml]
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:346)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:118)
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: anjanmondal@gmail.com
+Finished: FAILURE

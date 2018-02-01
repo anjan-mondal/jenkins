@@ -1,0 +1,553 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building remotely on [8mha:////4Mm0lebg4mWyfci05oup8f5bjdGLuSd2iYMuIKVjFPOlAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (pi) in workspace /home/rahul/SeleniumPi/workspace/test
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git init /home/rahul/SeleniumPi/workspace/test # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/seleniumFramework.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/seleniumFramework.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/seleniumFramework.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/seleniumFramework.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b4cf0d5aca7c30cf8a8e34939413b19334ef2819 (refs/remotes/origin/master)
+Commit message: "fghfgjfjg"
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f b4cf0d5aca7c30cf8a8e34939413b19334ef2819
+ > /usr/bin/git rev-list b4cf0d5aca7c30cf8a8e34939413b19334ef2819 # timeout=10
+[test] $ /bin/sh -xe /tmp/jenkins399336032296473097.sh
++ sh /home/rahul/SeleniumPi/workspace/test/runlinux.sh
+[TestNG] Running:
+  /home/rahul/SeleniumPi/workspace/test/testng.xml
+
+libGL error: No matching fbConfigs or visuals found
+libGL error: failed to load driver: swrast
+1502715418750	addons.manager	DEBUG	Application has been upgraded
+1502715418888	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1502715418903	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1502715418928	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1502715418941	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1502715418946	addons.manager	DEBUG	Starting provider: XPIProvider
+1502715418949	addons.xpi	DEBUG	startup
+1502715418953	addons.xpi	INFO	Mapping fxdriver@googlecode.com to /tmp/anonymous6462836925925174625webdriver-profile/extensions/fxdriver@googlecode.com
+1502715418955	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: /tmp/anonymous6462836925925174625webdriver-profile/extensions/webdriver-staging
+1502715418957	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502715418963	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1502715418966	addons.xpi	INFO	Mapping firefox@getpocket.com to /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1502715418968	addons.xpi	INFO	Mapping aushelper@mozilla.org to /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1502715418974	addons.xpi	INFO	Mapping deployment-checker@mozilla.org to /usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi
+1502715418976	addons.xpi	INFO	Mapping webcompat@mozilla.org to /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1502715418999	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1502715419002	addons.xpi	INFO	Mapping ubufox@ubuntu.com to /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi
+1502715419006	addons.xpi	DEBUG	checkForChanges
+1502715419008	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502715419014	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1502715419018	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com in app-profile
+1502715419023	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1502715419036	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1502715419038	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502715419041	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1502715419044	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502715419046	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1502715419047	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502715419049	addons.xpi	DEBUG	New add-on deployment-checker@mozilla.org in app-system-defaults
+1502715419053	addons.xpi	DEBUG	getModTime: Recursive scan of deployment-checker@mozilla.org
+1502715419055	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1502715419056	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502715419059	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1502715419061	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502715419063	addons.xpi	DEBUG	New add-on ubufox@ubuntu.com in app-system-share
+1502715419064	addons.xpi	DEBUG	getModTime: Recursive scan of ubufox@ubuntu.com
+1502715419066	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"/tmp/anonymous6462836925925174625webdriver-profile/extensions/fxdriver@googlecode.com","st":1502715416000,"mt":1502715416000}},"app-system-defaults":{"e10srollout@mozilla.org":{"d":"/usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi","st":1490806223000},"firefox@getpocket.com":{"d":"/usr/lib/firefox/browser/features/firefox@getpocket.com.xpi","st":1490806223000},"aushelper@mozilla.org":{"d":"/usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi","st":1490806223000},"deployment-checker@mozilla.org":{"d":"/usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi","st":1490806223000},"webcompat@mozilla.org":{"d":"/usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi","st":1490806223000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1490806223000}},"app-system-share":{"ubufox@ubuntu.com":{"d":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi","st":1442597402000}}}
+1502715419123	addons.xpi-utils	DEBUG	Opening XPI database /tmp/anonymous6462836925925174625webdriver-profile/extensions.json
+1502715419129	addons.xpi-utils	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1502715419217	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419220	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1502715419239	DeferredSave.extensions.json	DEBUG	Starting timer
+1502715419252	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419253	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1502715419298	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419306	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1502715419328	DeferredSave.extensions.json	DEBUG	Starting write
+1502715419348	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419348	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1502715419351	addons.xpi-utils	DEBUG	New add-on deployment-checker@mozilla.org installed in app-system-defaults
+1502715419372	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419373	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1502715419398	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419403	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1502715419419	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419420	addons.xpi-utils	DEBUG	New add-on ubufox@ubuntu.com installed in app-system-share
+1502715419509	addons.xpi-utils	WARN	Disabling foreign installed add-on ubufox@ubuntu.com in app-system-share
+1502715419511	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419515	addons.manager	DEBUG	Registering startup change 'installed' for fxdriver@googlecode.com
+1502715419516	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1502715419536	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715419537	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419539	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1502715419579	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1502715419599	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.9
+1502715419602	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715419604	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715419609	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1502715419612	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715419612	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419614	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1502715419617	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1502715419634	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1502715419635	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1502715419638	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715419639	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419641	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1502715419646	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1502715419656	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1502715419657	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1502715419659	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715419659	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419662	addons.manager	DEBUG	Registering startup change 'installed' for deployment-checker@mozilla.org
+1502715419665	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi
+1502715419687	addons.xpi	DEBUG	Calling bootstrap method install on deployment-checker@mozilla.org version 1.0
+1502715419962	addons.xpi-utils	DEBUG	Make addon app-system-defaults:deployment-checker@mozilla.org visible
+1502715419964	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715419965	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419967	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1502715419970	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1502715419979	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.0
+1502715419980	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1502715419983	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715419983	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419985	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1502715419986	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715419987	DeferredSave.extensions.json	DEBUG	Save changes
+1502715419988	addons.manager	DEBUG	Registering startup change 'installed' for ubufox@ubuntu.com
+1502715419990	addons.xpi-utils	DEBUG	Make addon app-system-share:ubufox@ubuntu.com visible
+1502715419994	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715419997	DeferredSave.extensions.json	DEBUG	Save changes
+1502715420001	addons.xpi	DEBUG	Updating XPIState for {"id":"fxdriver@googlecode.com","syncGUID":"{a20c492e-7a71-4a68-82a5-c7b46cb872e2}","location":"app-profile","version":"3.4.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox WebDriver","description":"WebDriver implementation for Firefox","creator":"Simon Stewart","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/anonymous6462836925925174625webdriver-profile/extensions/fxdriver@googlecode.com","installDate":1502715416000,"updateDate":1502715416000,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":3303362,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.0","maxVersion":"48.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":null},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715420002	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1502715420010	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{0bec84b6-e249-4510-93df-0374092d4319}","location":"app-system-defaults","version":"1.9","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":7183,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715420011	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502715420014	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{0bb1dd55-dc75-4d0a-8914-94ad5fd98812}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/firefox@getpocket.com.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":920281,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715420016	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502715420019	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{885da3d9-0574-44c9-8e7e-4d5995a26840}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715420020	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502715420025	addons.xpi	DEBUG	Updating XPIState for {"id":"deployment-checker@mozilla.org","syncGUID":"{c390b8de-74eb-44e3-9746-635369b3294f}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Site Deployment Checker","description":"Check that Users Encounter Mozilla Sites as Deployed by Mozilla","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":11555,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715420027	addons.xpi	DEBUG	getModTime: Recursive scan of deployment-checker@mozilla.org
+1502715420029	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{1fcaa729-1638-465a-ac39-0c1efe3b8a63}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":1456,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715420029	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502715420031	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{5349e452-3c19-486e-8c5c-611368ade9ce}","location":"app-global","version":"52.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"skinnable":true,"size":4932,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+1502715420032	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502715420035	addons.xpi	DEBUG	Updating XPIState for {"id":"ubufox@ubuntu.com","syncGUID":"{cf24896e-0052-4da0-9338-c36ce55f585b}","location":"app-system-share","version":"3.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://ubufox/content/ubuntulogo32.png","icon64URL":null,"defaultLocale":{"name":"Ubuntu Modifications","description":"Ubuntu modifications for Firefox","creator":"Canonical Ltd.","homepageURL":null,"contributors":["Alexander Sack <asac@ubuntu.com>","Sasa Bodiroza <jazzva@gmail.com>","Daniel Abramov <ex@vingrad.ru>","Arzhel Younsi <xionox@gmail.com>","Saïvann Carignan <oxmosys@gmail.com>","Chris Coulson <chris.coulson@canonical.com>"]},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi","installDate":1442597402000,"updateDate":1442597402000,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":129860,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[{"locales":["af"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Pak","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ar"],"name":"Ubuntu Modifications","description":"حزمة فايرفوكس من أوبونتو.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["bg"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Pack.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ca"],"name":"Ubuntu Modifications","description":"Paquet del Firefox de l'Ubuntu.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["cs"],"name":"Ubuntu Modifications","description":"Ubuntu rozšíření pro Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["de"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Paket.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["el"],"name":"Ubuntu Modifications","description":"Πακέτο του Ubuntu για το Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["es"],"name":"Ubuntu Modifications","description":"Paquete de Ubuntu para Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["eu"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Pack.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["fi"],"name":"Ubuntu Modifications","description":"Ubuntun Firefox-paketti","creator":"Canonical Ltd.","homepageURL":null},{"locales":["fr"],"name":"Ubuntu Modifications","description":"Paquet Firefox Pour Ubuntu.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["gl"],"name":"Ubuntu Modifications","description":"Paquete de Ubuntu para Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["hu"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox csomag","creator":"Canonical Ltd.","homepageURL":null},{"locales":["it"],"name":"Ubuntu Modifications","description":"Pacchetto Firefox Ubuntu.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ja"],"name":"Ubuntu Modifications","description":"Ubuntu Firefoxパック。","creator":"Canonical Ltd.","homepageURL":null},{"locales":["lt"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox paketas","creator":"Canonical Ltd.","homepageURL":null},{"locales":["nl"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox-pakket.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["pl"],"name":"Ubuntu Modifications","description":"Pakiet Ubuntu Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["pt-BR"],"name":"Ubuntu Modifications","description":"Pacote para o Firefox do Ubuntu","creator":"Canonical Ltd.","homepageURL":null},{"locales":["pt-PT"],"name":"Ubuntu Modifications","description":"Pacote Ubuntu Firefox","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ro"],"name":"Ubuntu Modifications","description":"Pachetul Ubuntu Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ru"],"name":"Ubuntu Modifications","description":"Расширения Firefox для Ubuntu","creator":"Canonical Ltd.","homepageURL":null},{"locales":["sl"],"name":"Ubuntu Modifications","description":"Ubuntu razširitve za Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["sv-SE"],"name":"Ubuntu Modifications","description":"Ubuntu-paket för Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["uk"],"name":"Ubuntu Modifications","description":"Убунтівські доповнення до Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["zh-CN"],"name":"Ubuntu Modifications","description":"Ubuntu 火狐扩展包.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["zh-TW"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox 擴充包。","creator":"Canonical Ltd.","homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"9.0","maxVersion":"37.0a1"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715420042	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715420042	DeferredSave.extensions.json	DEBUG	Save changes
+1502715420043	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1502715420043	addons.xpi-utils	DEBUG	Updating add-on states
+1502715420050	addons.xpi-utils	DEBUG	Writing add-ons list
+1502715420058	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1502715420061	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1502715420065	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi
+1502715420069	addons.xpi	DEBUG	Calling bootstrap method startup on deployment-checker@mozilla.org version 1.0
+1502715420075	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1502715420078	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.9
+1502715420080	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1502715420082	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1502715420087	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1502715420089	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1502715420101	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1502715420103	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1502715420103	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1502715420104	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1502715420107	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1502715420111	addons.manager	DEBUG	Starting provider: GMPProvider
+1502715420158	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1502715420160	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1502715420161	addons.manager	DEBUG	Starting provider: PluginProvider
+1502715420162	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1502715420164	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1502715420167	addons.manager	DEBUG	Completed startup sequence
+1502715421972	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1502715421974	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1502715421979	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1502715422601	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502715422602	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1502715422603	DeferredSave.extensions.json	DEBUG	Starting timer
+1502715422645	DeferredSave.extensions.json	DEBUG	Starting write
+1502715422688	addons.repository	DEBUG	No addons.json found.
+1502715422691	DeferredSave.addons.json	DEBUG	Save changes
+1502715422703	DeferredSave.addons.json	DEBUG	Starting timer
+1502715422789	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1502715422790	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1502715422791	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1502715422805	DeferredSave.addons.json	DEBUG	Starting write
+1502715422848	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502715422921	DeferredSave.addons.json	DEBUG	Write succeeded
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Aug 14, 2017 6:27:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+/home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-15/
+Directory is created!
+1502715437134	addons.manager	DEBUG	Application has been upgraded
+1502715437218	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1502715437228	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1502715437245	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1502715437256	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1502715437262	addons.manager	DEBUG	Starting provider: XPIProvider
+1502715437264	addons.xpi	DEBUG	startup
+1502715437268	addons.xpi	INFO	Mapping fxdriver@googlecode.com to /tmp/anonymous549244155791671554webdriver-profile/extensions/fxdriver@googlecode.com
+1502715437269	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: /tmp/anonymous549244155791671554webdriver-profile/extensions/webdriver-staging
+1502715437270	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502715437277	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1502715437280	addons.xpi	INFO	Mapping firefox@getpocket.com to /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1502715437281	addons.xpi	INFO	Mapping aushelper@mozilla.org to /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1502715437282	addons.xpi	INFO	Mapping deployment-checker@mozilla.org to /usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi
+1502715437283	addons.xpi	INFO	Mapping webcompat@mozilla.org to /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1502715437289	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1502715437290	addons.xpi	INFO	Mapping ubufox@ubuntu.com to /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi
+1502715437294	addons.xpi	DEBUG	checkForChanges
+1502715437296	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502715437300	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1502715437304	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com in app-profile
+1502715437309	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1502715437323	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1502715437325	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502715437328	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1502715437332	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502715437333	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1502715437334	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502715437336	addons.xpi	DEBUG	New add-on deployment-checker@mozilla.org in app-system-defaults
+1502715437340	addons.xpi	DEBUG	getModTime: Recursive scan of deployment-checker@mozilla.org
+1502715437342	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1502715437343	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502715437347	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1502715437348	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502715437350	addons.xpi	DEBUG	New add-on ubufox@ubuntu.com in app-system-share
+1502715437351	addons.xpi	DEBUG	getModTime: Recursive scan of ubufox@ubuntu.com
+1502715437354	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"/tmp/anonymous549244155791671554webdriver-profile/extensions/fxdriver@googlecode.com","st":1502715435000,"mt":1502715435000}},"app-system-defaults":{"e10srollout@mozilla.org":{"d":"/usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi","st":1490806223000},"firefox@getpocket.com":{"d":"/usr/lib/firefox/browser/features/firefox@getpocket.com.xpi","st":1490806223000},"aushelper@mozilla.org":{"d":"/usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi","st":1490806223000},"deployment-checker@mozilla.org":{"d":"/usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi","st":1490806223000},"webcompat@mozilla.org":{"d":"/usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi","st":1490806223000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1490806223000}},"app-system-share":{"ubufox@ubuntu.com":{"d":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi","st":1442597402000}}}
+1502715437395	addons.xpi-utils	DEBUG	Opening XPI database /tmp/anonymous549244155791671554webdriver-profile/extensions.json
+1502715437402	addons.xpi-utils	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1502715437492	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437496	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1502715437516	DeferredSave.extensions.json	DEBUG	Starting timer
+1502715437530	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437531	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1502715437571	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437578	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1502715437600	DeferredSave.extensions.json	DEBUG	Starting write
+1502715437621	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437621	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1502715437624	addons.xpi-utils	DEBUG	New add-on deployment-checker@mozilla.org installed in app-system-defaults
+1502715437643	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437644	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1502715437668	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437673	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1502715437688	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437689	addons.xpi-utils	DEBUG	New add-on ubufox@ubuntu.com installed in app-system-share
+1502715437766	addons.xpi-utils	WARN	Disabling foreign installed add-on ubufox@ubuntu.com in app-system-share
+1502715437768	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437772	addons.manager	DEBUG	Registering startup change 'installed' for fxdriver@googlecode.com
+1502715437773	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1502715437793	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715437793	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437794	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1502715437831	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1502715437851	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.9
+1502715437853	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715437856	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715437861	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1502715437862	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715437863	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437864	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1502715437867	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1502715437884	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1502715437884	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1502715437886	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715437887	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437889	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1502715437894	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1502715437904	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1502715437904	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1502715437906	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715437906	DeferredSave.extensions.json	DEBUG	Save changes
+1502715437908	addons.manager	DEBUG	Registering startup change 'installed' for deployment-checker@mozilla.org
+1502715437910	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi
+1502715437933	addons.xpi	DEBUG	Calling bootstrap method install on deployment-checker@mozilla.org version 1.0
+1502715440993	addons.xpi-utils	DEBUG	Make addon app-system-defaults:deployment-checker@mozilla.org visible
+1502715440994	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715440994	DeferredSave.extensions.json	DEBUG	Save changes
+1502715440995	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1502715440998	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1502715441007	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.0
+1502715441007	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1502715441009	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715441009	DeferredSave.extensions.json	DEBUG	Save changes
+1502715441010	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1502715441011	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715441012	DeferredSave.extensions.json	DEBUG	Save changes
+1502715441013	addons.manager	DEBUG	Registering startup change 'installed' for ubufox@ubuntu.com
+1502715441014	addons.xpi-utils	DEBUG	Make addon app-system-share:ubufox@ubuntu.com visible
+1502715441018	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715441020	DeferredSave.extensions.json	DEBUG	Save changes
+1502715441023	addons.xpi	DEBUG	Updating XPIState for {"id":"fxdriver@googlecode.com","syncGUID":"{60436709-1488-48ee-b16a-725afcd47f2a}","location":"app-profile","version":"3.4.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox WebDriver","description":"WebDriver implementation for Firefox","creator":"Simon Stewart","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/anonymous549244155791671554webdriver-profile/extensions/fxdriver@googlecode.com","installDate":1502715435000,"updateDate":1502715435000,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":3303362,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.0","maxVersion":"48.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":null},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715441024	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1502715441032	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{902e3064-4fdd-4cd9-8d63-0a7544590b8f}","location":"app-system-defaults","version":"1.9","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":7183,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715441032	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502715441035	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{eb2be4d6-704e-4894-941d-3a97d9469552}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/firefox@getpocket.com.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":920281,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715441037	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502715441039	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{f53c7549-b107-4dfc-97d2-f57989e05986}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715441040	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502715441045	addons.xpi	DEBUG	Updating XPIState for {"id":"deployment-checker@mozilla.org","syncGUID":"{9351f119-9d47-4fe7-8808-dac3fdb9f7e3}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Site Deployment Checker","description":"Check that Users Encounter Mozilla Sites as Deployed by Mozilla","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":11555,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715441045	addons.xpi	DEBUG	getModTime: Recursive scan of deployment-checker@mozilla.org
+1502715441048	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{629d1932-25ea-4274-980b-06ebc5f49ab8}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":1456,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715441048	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502715441051	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{9bd9d79a-c6d9-4aa3-932f-f0adb8135e7c}","location":"app-global","version":"52.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"skinnable":true,"size":4932,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+1502715441051	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502715441055	addons.xpi	DEBUG	Updating XPIState for {"id":"ubufox@ubuntu.com","syncGUID":"{ab1cf681-144c-43e8-8f19-c36884ce93c0}","location":"app-system-share","version":"3.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://ubufox/content/ubuntulogo32.png","icon64URL":null,"defaultLocale":{"name":"Ubuntu Modifications","description":"Ubuntu modifications for Firefox","creator":"Canonical Ltd.","homepageURL":null,"contributors":["Alexander Sack <asac@ubuntu.com>","Sasa Bodiroza <jazzva@gmail.com>","Daniel Abramov <ex@vingrad.ru>","Arzhel Younsi <xionox@gmail.com>","Saïvann Carignan <oxmosys@gmail.com>","Chris Coulson <chris.coulson@canonical.com>"]},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi","installDate":1442597402000,"updateDate":1442597402000,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":129860,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[{"locales":["af"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Pak","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ar"],"name":"Ubuntu Modifications","description":"حزمة فايرفوكس من أوبونتو.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["bg"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Pack.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ca"],"name":"Ubuntu Modifications","description":"Paquet del Firefox de l'Ubuntu.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["cs"],"name":"Ubuntu Modifications","description":"Ubuntu rozšíření pro Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["de"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Paket.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["el"],"name":"Ubuntu Modifications","description":"Πακέτο του Ubuntu για το Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["es"],"name":"Ubuntu Modifications","description":"Paquete de Ubuntu para Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["eu"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Pack.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["fi"],"name":"Ubuntu Modifications","description":"Ubuntun Firefox-paketti","creator":"Canonical Ltd.","homepageURL":null},{"locales":["fr"],"name":"Ubuntu Modifications","description":"Paquet Firefox Pour Ubuntu.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["gl"],"name":"Ubuntu Modifications","description":"Paquete de Ubuntu para Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["hu"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox csomag","creator":"Canonical Ltd.","homepageURL":null},{"locales":["it"],"name":"Ubuntu Modifications","description":"Pacchetto Firefox Ubuntu.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ja"],"name":"Ubuntu Modifications","description":"Ubuntu Firefoxパック。","creator":"Canonical Ltd.","homepageURL":null},{"locales":["lt"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox paketas","creator":"Canonical Ltd.","homepageURL":null},{"locales":["nl"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox-pakket.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["pl"],"name":"Ubuntu Modifications","description":"Pakiet Ubuntu Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["pt-BR"],"name":"Ubuntu Modifications","description":"Pacote para o Firefox do Ubuntu","creator":"Canonical Ltd.","homepageURL":null},{"locales":["pt-PT"],"name":"Ubuntu Modifications","description":"Pacote Ubuntu Firefox","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ro"],"name":"Ubuntu Modifications","description":"Pachetul Ubuntu Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ru"],"name":"Ubuntu Modifications","description":"Расширения Firefox для Ubuntu","creator":"Canonical Ltd.","homepageURL":null},{"locales":["sl"],"name":"Ubuntu Modifications","description":"Ubuntu razširitve za Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["sv-SE"],"name":"Ubuntu Modifications","description":"Ubuntu-paket för Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["uk"],"name":"Ubuntu Modifications","description":"Убунтівські доповнення до Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["zh-CN"],"name":"Ubuntu Modifications","description":"Ubuntu 火狐扩展包.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["zh-TW"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox 擴充包。","creator":"Canonical Ltd.","homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"9.0","maxVersion":"37.0a1"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715441062	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715441062	DeferredSave.extensions.json	DEBUG	Save changes
+1502715441063	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1502715441063	addons.xpi-utils	DEBUG	Updating add-on states
+1502715441069	addons.xpi-utils	DEBUG	Writing add-ons list
+1502715441077	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1502715441079	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1502715441083	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi
+1502715441087	addons.xpi	DEBUG	Calling bootstrap method startup on deployment-checker@mozilla.org version 1.0
+1502715441090	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1502715441092	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.9
+1502715441094	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1502715441096	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1502715441103	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1502715441105	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1502715441119	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1502715441121	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1502715441121	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1502715441121	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1502715441123	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1502715441127	addons.manager	DEBUG	Starting provider: GMPProvider
+1502715441165	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1502715441166	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1502715441167	addons.manager	DEBUG	Starting provider: PluginProvider
+1502715441169	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1502715441171	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1502715441173	addons.manager	DEBUG	Completed startup sequence
+1502715442868	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1502715442870	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1502715442872	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1502715443450	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502715443450	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1502715443451	DeferredSave.extensions.json	DEBUG	Starting timer
+1502715443494	DeferredSave.extensions.json	DEBUG	Starting write
+1502715443533	addons.repository	DEBUG	No addons.json found.
+1502715443536	DeferredSave.addons.json	DEBUG	Save changes
+1502715443547	DeferredSave.addons.json	DEBUG	Starting timer
+1502715443631	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1502715443632	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1502715443633	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1502715443647	DeferredSave.addons.json	DEBUG	Starting write
+1502715443692	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502715443798	DeferredSave.addons.json	DEBUG	Write succeeded
+Aug 14, 2017 6:27:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+/home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-32/
+Directory is created!
+1502715454094	addons.manager	DEBUG	Application has been upgraded
+1502715454193	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1502715454207	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1502715454225	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1502715454236	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1502715454240	addons.manager	DEBUG	Starting provider: XPIProvider
+1502715454242	addons.xpi	DEBUG	startup
+1502715454245	addons.xpi	INFO	Mapping fxdriver@googlecode.com to /tmp/anonymous773725131975824374webdriver-profile/extensions/fxdriver@googlecode.com
+1502715454247	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: /tmp/anonymous773725131975824374webdriver-profile/extensions/webdriver-staging
+1502715454248	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502715454253	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1502715454256	addons.xpi	INFO	Mapping firefox@getpocket.com to /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1502715454257	addons.xpi	INFO	Mapping aushelper@mozilla.org to /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1502715454258	addons.xpi	INFO	Mapping deployment-checker@mozilla.org to /usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi
+1502715454259	addons.xpi	INFO	Mapping webcompat@mozilla.org to /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1502715454263	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1502715454265	addons.xpi	INFO	Mapping ubufox@ubuntu.com to /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi
+1502715454269	addons.xpi	DEBUG	checkForChanges
+1502715454270	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502715454273	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1502715454277	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com in app-profile
+1502715454281	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1502715454295	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1502715454297	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502715454300	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1502715454303	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502715454305	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1502715454306	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502715454308	addons.xpi	DEBUG	New add-on deployment-checker@mozilla.org in app-system-defaults
+1502715454312	addons.xpi	DEBUG	getModTime: Recursive scan of deployment-checker@mozilla.org
+1502715454314	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1502715454315	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502715454318	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1502715454319	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502715454321	addons.xpi	DEBUG	New add-on ubufox@ubuntu.com in app-system-share
+1502715454324	addons.xpi	DEBUG	getModTime: Recursive scan of ubufox@ubuntu.com
+1502715454326	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"/tmp/anonymous773725131975824374webdriver-profile/extensions/fxdriver@googlecode.com","st":1502715452000,"mt":1502715452000}},"app-system-defaults":{"e10srollout@mozilla.org":{"d":"/usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi","st":1490806223000},"firefox@getpocket.com":{"d":"/usr/lib/firefox/browser/features/firefox@getpocket.com.xpi","st":1490806223000},"aushelper@mozilla.org":{"d":"/usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi","st":1490806223000},"deployment-checker@mozilla.org":{"d":"/usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi","st":1490806223000},"webcompat@mozilla.org":{"d":"/usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi","st":1490806223000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1490806223000}},"app-system-share":{"ubufox@ubuntu.com":{"d":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi","st":1442597402000}}}
+1502715454367	addons.xpi-utils	DEBUG	Opening XPI database /tmp/anonymous773725131975824374webdriver-profile/extensions.json
+1502715454372	addons.xpi-utils	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1502715454479	DeferredSave.extensions.json	DEBUG	Save changes
+1502715454484	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1502715454509	DeferredSave.extensions.json	DEBUG	Starting timer
+1502715454522	DeferredSave.extensions.json	DEBUG	Save changes
+1502715454523	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1502715454575	DeferredSave.extensions.json	DEBUG	Save changes
+1502715454585	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1502715454618	DeferredSave.extensions.json	DEBUG	Starting write
+1502715454657	DeferredSave.extensions.json	DEBUG	Save changes
+1502715454658	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1502715454663	addons.xpi-utils	DEBUG	New add-on deployment-checker@mozilla.org installed in app-system-defaults
+1502715454687	DeferredSave.extensions.json	DEBUG	Save changes
+1502715454689	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1502715454719	DeferredSave.extensions.json	DEBUG	Save changes
+1502715454731	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1502715454748	DeferredSave.extensions.json	DEBUG	Save changes
+1502715454749	addons.xpi-utils	DEBUG	New add-on ubufox@ubuntu.com installed in app-system-share
+1502715454844	addons.xpi-utils	WARN	Disabling foreign installed add-on ubufox@ubuntu.com in app-system-share
+1502715454847	DeferredSave.extensions.json	DEBUG	Save changes
+1502715454852	addons.manager	DEBUG	Registering startup change 'installed' for fxdriver@googlecode.com
+1502715454852	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1502715454874	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715454875	DeferredSave.extensions.json	DEBUG	Save changes
+1502715454876	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1502715454925	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1502715454948	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.9
+1502715454951	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715454954	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715454961	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1502715454963	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715454964	DeferredSave.extensions.json	DEBUG	Save changes
+1502715454966	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1502715454970	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1502715454990	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1502715454990	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1502715454992	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715454995	DeferredSave.extensions.json	DEBUG	Save changes
+1502715454997	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1502715455004	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1502715455016	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1502715455016	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1502715455018	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715455018	DeferredSave.extensions.json	DEBUG	Save changes
+1502715455020	addons.manager	DEBUG	Registering startup change 'installed' for deployment-checker@mozilla.org
+1502715455024	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi
+1502715455049	addons.xpi	DEBUG	Calling bootstrap method install on deployment-checker@mozilla.org version 1.0
+1502715455802	addons.xpi-utils	DEBUG	Make addon app-system-defaults:deployment-checker@mozilla.org visible
+1502715455804	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715455804	DeferredSave.extensions.json	DEBUG	Save changes
+1502715455806	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1502715455809	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1502715455818	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.0
+1502715455819	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1502715455821	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715455821	DeferredSave.extensions.json	DEBUG	Save changes
+1502715455822	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1502715455824	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715455824	DeferredSave.extensions.json	DEBUG	Save changes
+1502715455825	addons.manager	DEBUG	Registering startup change 'installed' for ubufox@ubuntu.com
+1502715455826	addons.xpi-utils	DEBUG	Make addon app-system-share:ubufox@ubuntu.com visible
+1502715455830	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715455832	DeferredSave.extensions.json	DEBUG	Save changes
+1502715455836	addons.xpi	DEBUG	Updating XPIState for {"id":"fxdriver@googlecode.com","syncGUID":"{cb9e86db-85d2-4c5f-b80b-c2e4872ca9a2}","location":"app-profile","version":"3.4.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox WebDriver","description":"WebDriver implementation for Firefox","creator":"Simon Stewart","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/anonymous773725131975824374webdriver-profile/extensions/fxdriver@googlecode.com","installDate":1502715452000,"updateDate":1502715452000,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":3303362,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.0","maxVersion":"48.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":null},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715455837	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1502715455845	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{19c026a3-ac35-454a-8403-a1d6431c59ad}","location":"app-system-defaults","version":"1.9","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":7183,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715455846	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502715455850	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{48ed7443-345a-40b5-acd6-4616eee5cad4}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/firefox@getpocket.com.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":920281,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715455851	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502715455854	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{3d41b6e5-b71f-4b4f-8c9c-775fa499154c}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715455855	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502715455859	addons.xpi	DEBUG	Updating XPIState for {"id":"deployment-checker@mozilla.org","syncGUID":"{7fa58305-b420-4517-b865-3f1e8be2989f}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Site Deployment Checker","description":"Check that Users Encounter Mozilla Sites as Deployed by Mozilla","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":11555,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715455860	addons.xpi	DEBUG	getModTime: Recursive scan of deployment-checker@mozilla.org
+1502715455863	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{2eb5f907-5909-46b8-8d51-3e3a31aa2ffb}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":1456,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715455864	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502715455869	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{744c5cff-1d1e-4d43-9bb4-8d784a653331}","location":"app-global","version":"52.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1490806223000,"updateDate":1490806223000,"applyBackgroundUpdates":1,"skinnable":true,"size":4932,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.2","maxVersion":"52.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+1502715455870	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502715455872	addons.xpi	DEBUG	Updating XPIState for {"id":"ubufox@ubuntu.com","syncGUID":"{3b14d988-b43e-46ad-a51f-d7155831101f}","location":"app-system-share","version":"3.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://ubufox/content/ubuntulogo32.png","icon64URL":null,"defaultLocale":{"name":"Ubuntu Modifications","description":"Ubuntu modifications for Firefox","creator":"Canonical Ltd.","homepageURL":null,"contributors":["Alexander Sack <asac@ubuntu.com>","Sasa Bodiroza <jazzva@gmail.com>","Daniel Abramov <ex@vingrad.ru>","Arzhel Younsi <xionox@gmail.com>","Saïvann Carignan <oxmosys@gmail.com>","Chris Coulson <chris.coulson@canonical.com>"]},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi","installDate":1442597402000,"updateDate":1442597402000,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":129860,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[{"locales":["af"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Pak","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ar"],"name":"Ubuntu Modifications","description":"حزمة فايرفوكس من أوبونتو.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["bg"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Pack.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ca"],"name":"Ubuntu Modifications","description":"Paquet del Firefox de l'Ubuntu.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["cs"],"name":"Ubuntu Modifications","description":"Ubuntu rozšíření pro Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["de"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Paket.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["el"],"name":"Ubuntu Modifications","description":"Πακέτο του Ubuntu για το Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["es"],"name":"Ubuntu Modifications","description":"Paquete de Ubuntu para Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["eu"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox Pack.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["fi"],"name":"Ubuntu Modifications","description":"Ubuntun Firefox-paketti","creator":"Canonical Ltd.","homepageURL":null},{"locales":["fr"],"name":"Ubuntu Modifications","description":"Paquet Firefox Pour Ubuntu.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["gl"],"name":"Ubuntu Modifications","description":"Paquete de Ubuntu para Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["hu"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox csomag","creator":"Canonical Ltd.","homepageURL":null},{"locales":["it"],"name":"Ubuntu Modifications","description":"Pacchetto Firefox Ubuntu.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ja"],"name":"Ubuntu Modifications","description":"Ubuntu Firefoxパック。","creator":"Canonical Ltd.","homepageURL":null},{"locales":["lt"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox paketas","creator":"Canonical Ltd.","homepageURL":null},{"locales":["nl"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox-pakket.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["pl"],"name":"Ubuntu Modifications","description":"Pakiet Ubuntu Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["pt-BR"],"name":"Ubuntu Modifications","description":"Pacote para o Firefox do Ubuntu","creator":"Canonical Ltd.","homepageURL":null},{"locales":["pt-PT"],"name":"Ubuntu Modifications","description":"Pacote Ubuntu Firefox","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ro"],"name":"Ubuntu Modifications","description":"Pachetul Ubuntu Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["ru"],"name":"Ubuntu Modifications","description":"Расширения Firefox для Ubuntu","creator":"Canonical Ltd.","homepageURL":null},{"locales":["sl"],"name":"Ubuntu Modifications","description":"Ubuntu razširitve za Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["sv-SE"],"name":"Ubuntu Modifications","description":"Ubuntu-paket för Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["uk"],"name":"Ubuntu Modifications","description":"Убунтівські доповнення до Firefox.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["zh-CN"],"name":"Ubuntu Modifications","description":"Ubuntu 火狐扩展包.","creator":"Canonical Ltd.","homepageURL":null},{"locales":["zh-TW"],"name":"Ubuntu Modifications","description":"Ubuntu Firefox 擴充包。","creator":"Canonical Ltd.","homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"9.0","maxVersion":"37.0a1"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1502715455879	addons.xpi	DEBUG	Add-on fxdriver@googlecode.com blocks e10s rollout.
+1502715455880	DeferredSave.extensions.json	DEBUG	Save changes
+1502715455883	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1502715455884	addons.xpi-utils	DEBUG	Updating add-on states
+1502715455892	addons.xpi-utils	DEBUG	Writing add-ons list
+1502715455899	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1502715455902	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1502715455906	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/deployment-checker@mozilla.org.xpi
+1502715455910	addons.xpi	DEBUG	Calling bootstrap method startup on deployment-checker@mozilla.org version 1.0
+1502715455914	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1502715455917	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.9
+1502715455918	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1502715455920	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1502715455925	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1502715455927	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1502715455938	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1502715455940	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1502715455940	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1502715455941	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1502715455942	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1502715455947	addons.manager	DEBUG	Starting provider: GMPProvider
+1502715455984	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1502715455987	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1502715455988	addons.manager	DEBUG	Starting provider: PluginProvider
+1502715455989	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1502715455991	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1502715455994	addons.manager	DEBUG	Completed startup sequence
+1502715458386	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1502715458387	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1502715458390	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1502715458883	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502715458883	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1502715458884	DeferredSave.extensions.json	DEBUG	Starting timer
+1502715458951	DeferredSave.extensions.json	DEBUG	Starting write
+1502715459000	addons.repository	DEBUG	No addons.json found.
+1502715459003	DeferredSave.addons.json	DEBUG	Save changes
+1502715459014	DeferredSave.addons.json	DEBUG	Starting timer
+1502715459117	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1502715459118	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1502715459119	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1502715459137	DeferredSave.addons.json	DEBUG	Starting write
+1502715459179	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502715459269	DeferredSave.addons.json	DEBUG	Write succeeded
+Aug 14, 2017 6:27:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+/home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-46/
+Directory is created!
+/home/rahul/SeleniumPi/workspace/test
+Directory is created!
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-32/image/14-08-2017-18-27-55.png ***
+/home/rahul/SeleniumPi/workspace/test
+Directory is created!
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-15/image/14-08-2017-18-27-59.png ***
+Directory is created!
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-46/image/14-08-2017-18-28-19.png ***
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-46/image/14-08-2017-18-28-29.png ***
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-46/image/14-08-2017-18-28-37.png ***
+1502715527089	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/52.0.2/20170329150643/Linux_arm-eabi-gcc3/null/release-cck- ubuntu/Linux%204.4.38-v7%2B%20(GTK%203.18.9%2Clibpulse%208.0.0)/canonical/1.0/update.xml
+1502715529931	addons.productaddons	INFO	Completed downloading document
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-46/image/14-08-2017-18-28-47.png ***
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-46/image/14-08-2017-18-28-53.png ***
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-46/image/14-08-2017-18-29-21.png ***
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-46/image/14-08-2017-18-29-45.png ***
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-46/image/14-08-2017-18-30-16.png ***
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-46/image/14-08-2017-18-30-21.png ***
+***Placed screen shot in /home/rahul/SeleniumPi/workspace/test/result/14-08-2017-18-27-46/image/14-08-2017-18-30-25.png ***
+PASS
+PASS
+PASS
+
+===============================================
+Parallel test suite
+Total tests run: 3, Failures: 0, Skips: 0
+===============================================
+
+Finished: SUCCESS

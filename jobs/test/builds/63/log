@@ -1,0 +1,109 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building remotely on [8mha:////4Mm0lebg4mWyfci05oup8f5bjdGLuSd2iYMuIKVjFPOlAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (pi) in workspace /media/rahul/U/SeleniumPi/workspace/test
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git init /media/rahul/U/SeleniumPi/workspace/test # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/seleniumFramework.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/seleniumFramework.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/seleniumFramework.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/seleniumFramework.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b2d6e69d65c7166d8a54b26ef89055c431fe9136 (refs/remotes/origin/master)
+Commit message: "test"
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f b2d6e69d65c7166d8a54b26ef89055c431fe9136
+ > /usr/bin/git rev-list b2d6e69d65c7166d8a54b26ef89055c431fe9136 # timeout=10
+[test] $ /bin/sh -xe /tmp/jenkins6954545442732832405.sh
++ sh /media/rahul/U/SeleniumPi/workspace/test/runlinux.sh
+[TestNG] Running:
+  /media/rahul/U/SeleniumPi/workspace/test/testng.xml
+
+Starting ChromeDriver 2.29 on port 4668
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Aug 21, 2017 7:21:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+/media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-21-34/
+Failed to create directory!
+/media/rahul/U/SeleniumPi/workspace/test
+Directory is created!
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-21-34/image/21-08-2017-19-21-55.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-21-34/image/21-08-2017-19-22-04.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-21-34/image/21-08-2017-19-22-24.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-21-34/image/21-08-2017-19-22-43.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-21-34/image/21-08-2017-19-22-48.png ***
+PASS
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+Starting ChromeDriver 2.29 on port 1189
+Only local connections are allowed.
+Aug 21, 2017 7:23:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+/media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-23-01/
+Directory is created!
+/media/rahul/U/SeleniumPi/workspace/test
+Directory is created!
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-23-01/image/21-08-2017-19-23-20.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-23-01/image/21-08-2017-19-23-29.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-23-01/image/21-08-2017-19-23-49.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-23-01/image/21-08-2017-19-24-07.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-23-01/image/21-08-2017-19-24-12.png ***
+PASS
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+Starting ChromeDriver 2.29 on port 24078
+Only local connections are allowed.
+Aug 21, 2017 7:24:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+/media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-24-24/
+Directory is created!
+/media/rahul/U/SeleniumPi/workspace/test
+Directory is created!
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-24-24/image/21-08-2017-19-24-38.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-24-24/image/21-08-2017-19-24-46.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-24-24/image/21-08-2017-19-25-06.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-24-24/image/21-08-2017-19-25-24.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-24-24/image/21-08-2017-19-25-29.png ***
+PASS
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+
+===============================================
+Parallel test suite
+Total tests run: 3, Failures: 0, Skips: 0
+===============================================
+
+Sending e-mails to: anjanmondal@gmail.com
+ERROR: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 3sm17636170pfj.92 - gsmtp
+
+[8mha:////4EICDpwvoLHtApI4/8vMbBl3gzJrAY6yR8Auk0G3ZsBqAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mjavax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 3sm17636170pfj.92 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:809)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:752)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:669)
+	at javax.mail.Service.connect(Service.java:317)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:170)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:81)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:730)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:676)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:621)
+	at hudson.model.Run.execute(Run.java:1760)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:415)
+Finished: SUCCESS

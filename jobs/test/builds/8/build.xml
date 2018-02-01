@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.tasks.MailMessageIdAction plugin="mailer@1.20">
+      <messageId>&lt;2033234482.13.1501957306729.JavaMail.anjan@anjan-PC&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
+  </actions>
+  <queueId>8</queueId>
+  <timestamp>1501957306547</timestamp>
+  <startTime>1501957306550</startTime>
+  <result>FAILURE</result>
+  <duration>4223</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn>slave1</builtOn>
+  <workspace>C:\Users\ANJAN\Downloads\workspace\test</workspace>
+  <hudsonVersion>2.72</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

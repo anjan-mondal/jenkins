@@ -1,0 +1,11 @@
+commit 0d88365411e01e8dfbc90df8ce98cf78b9ccad4c
+tree 30f6cb990ad1e487f84840c2cc9a179d35cc0733
+parent 343e115f892087c7614d68cc542a930515c58874
+author anjan <anjanmondal@gmail.com> 2017-08-10 18:09:21 +0530
+committer anjan <anjanmondal@gmail.com> 2017-08-10 18:09:21 +0530
+
+    tesat
+
+
+
+:100644 100644 6b1cbf84cfb6bd4f4133daa178407d6a7e903cbb dceeb41acf02347c4ba2281bc311715098233758 M	runlinux.sh

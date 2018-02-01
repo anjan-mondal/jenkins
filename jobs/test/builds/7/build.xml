@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>7</queueId>
+  <timestamp>1501956955699</timestamp>
+  <startTime>1501956955702</startTime>
+  <result>FAILURE</result>
+  <duration>1929</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn>slave1</builtOn>
+  <workspace>C:\Users\ANJAN\Downloads\workspace\test</workspace>
+  <hudsonVersion>2.72</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

@@ -1,0 +1,292 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building remotely on [8mha:////4Mm0lebg4mWyfci05oup8f5bjdGLuSd2iYMuIKVjFPOlAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (pi) in workspace /media/rahul/U/SeleniumPi/workspace/soaptest
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git init /media/rahul/U/SeleniumPi/workspace/soaptest # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/soapuipi.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/soapuipi.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/soapuipi.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/soapuipi.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3ea7531c6463657d243aa7b7c65c9cebbd168f85 (refs/remotes/origin/master)
+Commit message: "test"
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 3ea7531c6463657d243aa7b7c65c9cebbd168f85
+ > /usr/bin/git rev-list 3ea7531c6463657d243aa7b7c65c9cebbd168f85 # timeout=10
+[soaptest] $ /bin/sh -xe /tmp/jenkins3706716269200811511.sh
++ sh /media/rahul/U/SeleniumPi/workspace/soaptest/RunLinux.sh
+================================
+=
+= SOAPUI_HOME = /home/rahul/soap/SoapUI-5.3.0
+=
+================================
+2017-08-14 22:56:15,039 [main] WARN  com.eviware.soapui.SoapUI - Could not find jfxrt.jar. Internal browser will be disabled.
+SoapUI 5.3.0 TestCase Runner
+22:56:17,043 INFO  [DefaultSoapUICore] initialized soapui-settings from [/home/rahul/soapui-settings.xml]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22:56:19,574 INFO  [PluginManager] 0 plugins loaded in 10 ms
+22:56:19,574 INFO  [DefaultSoapUICore] All plugins loaded
+java.awt.HeadlessException: 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+	at sun.awt.HeadlessToolkit.getScreenSize(HeadlessToolkit.java:284)
+	at com.eviware.soapui.analytics.providers.BaseAnalyticsProvider.getStrScreenSize(BaseAnalyticsProvider.java:64)
+	at com.eviware.soapui.analytics.providers.GoogleAnalyticsProvider.getEventLabel(GoogleAnalyticsProvider.java:173)
+	at com.eviware.soapui.analytics.providers.GoogleAnalyticsProvider.buildParametersString(GoogleAnalyticsProvider.java:81)
+	at com.eviware.soapui.analytics.providers.GoogleAnalyticsProvider.trackAction(GoogleAnalyticsProvider.java:56)
+	at com.eviware.soapui.analytics.AnalyticsManager$3.run(AnalyticsManager.java:167)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+22:56:22,769 INFO  [WsdlProject] Loaded project from [file:/media/rahul/U/SeleniumPi/workspace/soaptest/Projects/googleAPI]
+22:56:22,789 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Sample Google Maps Project]
+22:56:22,793 INFO  [SoapUITestCaseRunner] Running TestSuite [Time Zone API TestSuite], runType = SEQUENTIAL
+22:56:22,835 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase1]
+22:56:22,862 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request]
+22:56:23,725 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:23,725 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331161200&sensor=false HTTP/1.1
+22:56:24,409 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:24,483 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:26,113 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:26,134 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with DST offset]
+22:56:26,141 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:26,144 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:26,145 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false HTTP/1.1
+22:56:26,260 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:26,260 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:26,291 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:26,297 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with localized response]
+22:56:26,303 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:26,305 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:26,305 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false&language=es HTTP/1.1
+22:56:26,414 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:26,414 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:26,442 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:26,451 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase1], time taken: 1617ms, status: FINISHED
+22:56:26,452 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase2]
+22:56:26,453 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request]
+22:56:26,461 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:26,467 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:26,468 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331161200&sensor=false HTTP/1.1
+22:56:26,572 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:26,572 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:26,602 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:26,607 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with DST offset]
+22:56:26,615 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:26,617 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:26,617 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false HTTP/1.1
+22:56:26,720 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:26,721 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:26,747 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:26,753 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with localized response]
+22:56:26,759 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:26,761 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:26,761 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false&language=es HTTP/1.1
+22:56:26,864 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:26,865 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:26,890 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:26,895 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase2], time taken: 323ms, status: FINISHED
+22:56:26,898 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase3]
+22:56:26,899 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request]
+22:56:26,906 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:26,908 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:26,908 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331161200&sensor=false HTTP/1.1
+22:56:27,012 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:27,013 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:27,062 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:27,076 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with DST offset]
+22:56:27,082 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:27,084 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:27,084 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false HTTP/1.1
+22:56:27,187 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:27,188 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:27,214 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:27,220 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with localized response]
+22:56:27,225 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:27,227 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:27,228 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false&language=es HTTP/1.1
+22:56:27,330 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:27,331 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:27,356 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:27,361 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase3], time taken: 319ms, status: FINISHED
+22:56:27,362 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase4]
+22:56:27,363 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request]
+22:56:27,370 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:27,372 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:27,372 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331161200&sensor=false HTTP/1.1
+22:56:27,474 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:27,475 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:27,501 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:27,506 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with DST offset]
+22:56:27,511 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:27,513 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:27,514 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false HTTP/1.1
+22:56:27,617 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:27,617 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:27,641 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:27,647 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with localized response]
+22:56:27,652 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:27,654 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:27,654 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false&language=es HTTP/1.1
+22:56:27,757 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:27,758 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:27,832 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:27,838 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase4], time taken: 318ms, status: FINISHED
+22:56:27,839 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase5]
+22:56:27,840 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request]
+22:56:27,845 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:27,848 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:27,848 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331161200&sensor=false HTTP/1.1
+22:56:27,952 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:27,953 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:27,979 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:27,985 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with DST offset]
+22:56:27,993 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:27,995 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:27,996 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false HTTP/1.1
+22:56:28,100 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:28,101 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:28,124 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:28,129 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with localized response]
+22:56:28,134 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:28,137 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:28,137 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false&language=es HTTP/1.1
+22:56:28,241 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:28,242 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:28,265 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:28,270 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase5], time taken: 325ms, status: FINISHED
+22:56:28,272 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase6]
+22:56:28,274 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request]
+22:56:28,282 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:28,284 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:28,285 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331161200&sensor=false HTTP/1.1
+22:56:28,391 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:28,393 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:28,420 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:28,425 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with DST offset]
+22:56:28,430 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:28,433 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:28,433 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false HTTP/1.1
+22:56:28,536 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:28,538 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:28,560 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:28,566 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with localized response]
+22:56:28,571 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:28,573 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:28,574 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false&language=es HTTP/1.1
+22:56:28,677 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:28,678 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:28,699 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:28,705 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase6], time taken: 328ms, status: FINISHED
+22:56:28,707 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase7]
+22:56:28,707 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request]
+22:56:28,714 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:28,716 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:28,716 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331161200&sensor=false HTTP/1.1
+22:56:28,820 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:28,820 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:28,843 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:28,848 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with DST offset]
+22:56:28,854 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:28,856 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:28,856 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false HTTP/1.1
+22:56:28,959 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:28,959 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:28,981 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:29,020 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with localized response]
+22:56:29,025 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:29,027 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:29,028 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false&language=es HTTP/1.1
+22:56:29,131 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:29,131 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:29,154 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:29,160 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase7], time taken: 319ms, status: FINISHED
+22:56:29,161 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase8]
+22:56:29,162 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request]
+22:56:29,167 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:29,170 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:29,171 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331161200&sensor=false HTTP/1.1
+22:56:29,275 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:29,276 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:29,298 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:29,304 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with DST offset]
+22:56:29,309 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:29,311 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:29,312 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false HTTP/1.1
+22:56:29,415 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:29,416 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:29,437 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:29,443 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with localized response]
+22:56:29,448 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:29,450 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:29,451 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false&language=es HTTP/1.1
+22:56:29,553 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:29,554 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:29,575 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:29,581 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase8], time taken: 324ms, status: FINISHED
+22:56:29,582 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase9]
+22:56:29,583 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request]
+22:56:29,588 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:29,590 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:29,591 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331161200&sensor=false HTTP/1.1
+22:56:29,696 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:29,697 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:29,720 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:29,726 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with DST offset]
+22:56:29,730 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:29,733 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:29,734 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false HTTP/1.1
+22:56:29,837 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:29,838 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:29,858 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:29,863 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with localized response]
+22:56:29,868 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:29,870 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:29,871 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false&language=es HTTP/1.1
+22:56:29,975 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:29,976 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:29,996 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:30,002 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase9], time taken: 328ms, status: FINISHED
+22:56:30,004 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase10]
+22:56:30,005 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request]
+22:56:30,011 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:30,013 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:30,014 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331161200&sensor=false HTTP/1.1
+22:56:30,118 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:30,119 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:30,158 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:30,165 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with DST offset]
+22:56:30,173 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:30,176 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:30,177 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false HTTP/1.1
+22:56:30,280 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:30,280 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:30,301 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:30,307 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with localized response]
+22:56:30,311 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+22:56:30,313 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+22:56:30,313 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false&language=es HTTP/1.1
+22:56:30,416 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+22:56:30,417 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+22:56:30,438 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+22:56:30,444 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase10], time taken: 323ms, status: FINISHED
+22:56:30,444 INFO  [SoapUITestCaseRunner] TestSuite [Time Zone API TestSuite] finished with status [FINISHED] in 7636ms
+
+SoapUI 5.3.0 TestCaseRunner Summary
+-----------------------------
+Time Taken: 7654ms
+Total TestSuites: 1
+Total TestCases: 10 (0 failed)
+Total TestSteps: 30
+Total Request Assertions: 30
+Total Failed Assertions: 0
+Total Exported Results: 30
+Finished: SUCCESS

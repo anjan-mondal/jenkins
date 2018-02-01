@@ -1,0 +1,166 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building remotely on [8mha:////4Mm0lebg4mWyfci05oup8f5bjdGLuSd2iYMuIKVjFPOlAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (pi) in workspace /media/rahul/U/SeleniumPi/workspace/test
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git init /media/rahul/U/SeleniumPi/workspace/test # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/seleniumFramework.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/seleniumFramework.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/seleniumFramework.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/seleniumFramework.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 258c704658d62532f03360a2c55519a0c66b2929 (refs/remotes/origin/master)
+Commit message: "test"
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 258c704658d62532f03360a2c55519a0c66b2929
+ > /usr/bin/git rev-list 258c704658d62532f03360a2c55519a0c66b2929 # timeout=10
+[test] $ /bin/sh -xe /tmp/jenkins4953563475338720620.sh
++ sh /media/rahul/U/SeleniumPi/workspace/test/runlinux.sh
+...
+... TestNG 6.7 by C�dric Beust (cedric@beust.com)
+...
+
+[PackageUtils] Looking for test classes in the directory: /media/rahul/U/SeleniumPi/workspace/test/bin/testscripts/testcase
+[PackageUtils] Found class TC_01, seeing it if it's included or excluded
+[PackageUtils] ... Including class TC_01
+[PackageUtils] Found class TC_02, seeing it if it's included or excluded
+[PackageUtils] ... Including class TC_02
+[TestRunner] Running the tests in 'TestNG Test Group' with parallel mode:classes
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@1fa26b7 priority: 10
+[TestClass] Creating TestClass for [ClassImpl testscripts.testcase.TC_01]
+[TestClass] Adding method TC_01.runSanity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:null] on TestClass class testscripts.testcase.TC_01
+[XmlMethodSelector] Including method testscripts.testcase.setUp()
+[XmlMethodSelector] Including method testscripts.testcase.tearDown()
+[TestClass] Creating TestClass for [ClassImpl testscripts.testcase.TC_02]
+[TestClass] Adding method TC_02.runSanity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:null] on TestClass class testscripts.testcase.TC_02
+[XmlMethodSelector] Including method testscripts.testcase.runSanity()
+[TestNG] Running:
+  /media/rahul/U/SeleniumPi/workspace/test/testng.xml
+
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test TestNG Test Group on 2  classes,  included groups:[] excluded groups:[]
+===== Test class
+testscripts.testcase.TC_01
+  @BeforeClass TC_01.setUp()[pri:0, instance:testscripts.testcase.TC_01@369c4]
+    @Test TC_01.runSanity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.testcase.TC_01@369c4]
+  @AfterClass TC_01.tearDown()[pri:0, instance:testscripts.testcase.TC_01@369c4]
+======
+===== Test class
+testscripts.testcase.TC_02
+  @BeforeClass TC_02.setUp()[pri:0, instance:testscripts.testcase.TC_02@4aed64]
+    @Test TC_02.runSanity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.testcase.TC_02@4aed64]
+  @AfterClass TC_02.tearDown()[pri:0, instance:testscripts.testcase.TC_02@4aed64]
+======
+[Invoker 21347005] Keeping method TC_01.setUp()[pri:0, instance:testscripts.testcase.TC_01@369c4] for class [TestClass class testscripts.testcase.TC_01]
+[TestRunner] Starting executor for test TestNG Test Group with time out:2147483647 milliseconds.
+[Invoker 16833275] Keeping method TC_02.setUp()[pri:0, instance:testscripts.testcase.TC_02@4aed64] for class [TestClass class testscripts.testcase.TC_02]
+[Invoker 21347005] Invoking @BeforeClass TC_01.setUp()[pri:0, instance:testscripts.testcase.TC_01@369c4]
+[Invoker 16833275] Invoking @BeforeClass TC_02.setUp()[pri:0, instance:testscripts.testcase.TC_02@4aed64]
+SSttaarrttiinngg  CChromeDriver 2.29h roonm epDorritv e1r8 120.32
+Only9  loonc aplo rcto n1n7e9c7t4i
+Onloyn sl oacrael  aclolnonweecdt.i
+ons are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Aug 21, 2017 8:25:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Aug 21, 2017 8:25:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+/media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/
+/media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/
+Failed to create directory!
+Failed to create directory!
+/media/rahul/U/SeleniumPi/workspace/test
+/media/rahul/U/SeleniumPi/workspace/test
+[Invoker 21347005] Invoking testscripts.testcase.TC_01.runSanity
+[Invoker 16833275] Invoking testscripts.testcase.TC_02.runSanity
+Directory is created!
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/image/21-08-2017-20-25-30.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/image/21-08-2017-20-25-34.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/image/21-08-2017-20-25-42.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/image/21-08-2017-20-25-45.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/image/21-08-2017-20-26-10.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/image/21-08-2017-20-26-07.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/image/21-08-2017-20-26-33.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/image/21-08-2017-20-26-36.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/image/21-08-2017-20-26-42.png ***
+[Invoker 16833275] Keeping method TC_02.tearDown()[pri:0, instance:testscripts.testcase.TC_02@4aed64] for class [TestClass class testscripts.testcase.TC_02]
+[Invoker 16833275] Invoking @AfterClass TC_02.tearDown()[pri:0, instance:testscripts.testcase.TC_02@4aed64]
+PASS
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-20-25-08/image/21-08-2017-20-26-43.png ***
+[Invoker 21347005] Keeping method TC_01.tearDown()[pri:0, instance:testscripts.testcase.TC_01@369c4] for class [TestClass class testscripts.testcase.TC_01]
+[Invoker 21347005] Invoking @AfterClass TC_01.tearDown()[pri:0, instance:testscripts.testcase.TC_01@369c4]
+PASS
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+===== Invoked methods
+  TC_02.setUp()[pri:0, instance:testscripts.testcase.TC_02@4aed64] 4910436
+  TC_01.setUp()[pri:0, instance:testscripts.testcase.TC_01@369c4] 223684
+    TC_01.runSanity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.testcase.TC_01@369c4]PDX 09/10/2017 09/24/2017 Compact testfirst testlast test@g.com  223684
+    TC_02.runSanity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.testcase.TC_02@4aed64]PDX 09/10/2017 09/24/2017 Compact testfirst testlast test@g.com  4910436
+  TC_02.tearDown()[pri:0, instance:testscripts.testcase.TC_02@4aed64] 4910436
+  TC_01.tearDown()[pri:0, instance:testscripts.testcase.TC_01@369c4] 223684
+=====
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/Parallel test suite/TestNG Test Group.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/Parallel test suite/TestNG Test Group.xml
+PASSED: runSanity("PDX", "09/10/2017", "09/24/2017", "Compact", "testfirst", "testlast", "test@g.com")
+PASSED: runSanity("PDX", "09/10/2017", "09/24/2017", "Compact", "testfirst", "testlast", "test@g.com")
+
+===============================================
+    TestNG Test Group
+    Tests run: 2, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Parallel test suite
+Total tests run: 2, Failures: 0, Skips: 0
+===============================================
+
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/testng-results.xml
+[TestNG] Time taken by org.testng.reporters.XMLReporter@1f4c3: 38 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter@122bbb7: 15 ms
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/toc.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/TestNG Test Group.properties
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/index.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/main.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/groups.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods-alphabetical.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods-alphabetical.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods-alphabetical.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods-alphabetical.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods-alphabetical.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods-alphabetical.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods-alphabetical.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods-alphabetical.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/classes.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/reporter-output.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/methods-not-run.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/Parallel test suite/testng.xml.html
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/old/index.html
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@104e3b2: 116 ms
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/index.html
+[TestNG] Time taken by org.testng.reporters.jq.Main@4af82c: 107 ms
+[TestNG] Time taken by [TestListenerAdapter] Passed:0 Failed:0 Skipped:0]: 2 ms
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/junitreports/TEST-testscripts.testcase.TC_01.xml
+Creating /media/rahul/U/SeleniumPi/workspace/test/test-output/junitreports/TEST-testscripts.testcase.TC_02.xml
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@1dac704: 12 ms
+Finished: SUCCESS

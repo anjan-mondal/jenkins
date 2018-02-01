@@ -1,0 +1,84 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building remotely on [8mha:////4Mm0lebg4mWyfci05oup8f5bjdGLuSd2iYMuIKVjFPOlAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (pi) in workspace /media/rahul/U/SeleniumPi/workspace/test
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git init /media/rahul/U/SeleniumPi/workspace/test # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/seleniumFramework.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/seleniumFramework.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/seleniumFramework.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/seleniumFramework.git
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/seleniumFramework.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b48d5dc51d2ffd0f5893d92441ac42e5e617057c (refs/remotes/origin/master)
+Commit message: "test"
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f b48d5dc51d2ffd0f5893d92441ac42e5e617057c
+ > /usr/bin/git rev-list b2d6e69d65c7166d8a54b26ef89055c431fe9136 # timeout=10
+[test] $ /bin/sh -xe /tmp/jenkins6059044137703273971.sh
++ sh /media/rahul/U/SeleniumPi/workspace/test/runlinux.sh
+[TestNG] Running:
+  /media/rahul/U/SeleniumPi/workspace/test/testng.xml
+
+Starting ChromeDriver 2.29 on port 27288
+Only local connections are allowed.
+Starting ChromeDriver 2.29 on port 13744
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Aug 21, 2017 7:28:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Aug 21, 2017 7:28:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+/media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/
+/media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/
+Failed to create directory!
+Failed to create directory!
+/media/rahul/U/SeleniumPi/workspace/test
+/media/rahul/U/SeleniumPi/workspace/test
+Directory is created!
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/image/21-08-2017-19-29-00.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/image/21-08-2017-19-29-03.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/image/21-08-2017-19-29-11.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/image/21-08-2017-19-29-14.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/image/21-08-2017-19-29-39.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/image/21-08-2017-19-29-38.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/image/21-08-2017-19-30-04.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/image/21-08-2017-19-30-05.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/image/21-08-2017-19-30-12.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-28-38/image/21-08-2017-19-30-13.png ***
+PASS
+PASS
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+Starting ChromeDriver 2.29 on port 3177
+Only local connections are allowed.
+Aug 21, 2017 7:30:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+/media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-30-30/
+Directory is created!
+/media/rahul/U/SeleniumPi/workspace/test
+Directory is created!
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-30-30/image/21-08-2017-19-30-48.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-30-30/image/21-08-2017-19-30-56.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-30-30/image/21-08-2017-19-31-15.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-30-30/image/21-08-2017-19-31-33.png ***
+***Placed screen shot in /media/rahul/U/SeleniumPi/workspace/test/result/21-08-2017-19-30-30/image/21-08-2017-19-31-38.png ***
+PASS
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+
+===============================================
+Parallel test suite
+Total tests run: 3, Failures: 0, Skips: 0
+===============================================
+
+Finished: SUCCESS

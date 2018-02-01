@@ -1,0 +1,93 @@
+Started by user [8mha:////4BMw752tifshHF6lnxefsfEz7rJ7nTMd9F07gGknpEaAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xLysxDwAZt23j8AAAAA=[0manjan
+Building remotely on [8mha:////4Mm0lebg4mWyfci05oup8f5bjdGLuSd2iYMuIKVjFPOlAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (pi) in workspace /media/rahul/U/SeleniumPi/workspace/soaptest
+[WS-CLEANUP] Deleting project workspace...
+Cloning the remote Git repository
+Cloning repository https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git init /media/rahul/U/SeleniumPi/workspace/soaptest # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/soapuipi.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/soapuipi.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/anjan-mondal/soapuipi.git # timeout=10
+Fetching upstream changes from https://github.com/anjan-mondal/soapuipi.git
+ > /usr/bin/git fetch --tags --progress https://github.com/anjan-mondal/soapuipi.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 654fff8301d0e0143302c4a9c6f058669a403aae (refs/remotes/origin/master)
+Commit message: "rtt"
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 654fff8301d0e0143302c4a9c6f058669a403aae
+ > /usr/bin/git rev-list 42dcf246e11a7a6056f1ebd6524c96b462bd64f1 # timeout=10
+[soaptest] $ /bin/sh -xe /tmp/jenkins3985606664577879549.sh
++ sh /home/rahul/SeleniumPi/workspace/soaptest/RunLinux.sh
+================================
+=
+= SOAPUI_HOME = /home/rahul/soap/SoapUI-5.3.0
+=
+================================
+2017-08-14 20:20:32,419 [main] WARN  com.eviware.soapui.SoapUI - Could not find jfxrt.jar. Internal browser will be disabled.
+SoapUI 5.3.0 TestCase Runner
+20:20:34,339 INFO  [DefaultSoapUICore] initialized soapui-settings from [/home/rahul/soapui-settings.xml]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+20:20:36,580 INFO  [PluginManager] 0 plugins loaded in 12 ms
+20:20:36,581 INFO  [DefaultSoapUICore] All plugins loaded
+20:20:37,787 WARN  [AnalyticsManager] Error generating Analytics session ID - returning empty String
+java.lang.NullPointerException
+	at com.eviware.soapui.analytics.AnalyticsManager.makeUserId(AnalyticsManager.java:140)
+	at com.eviware.soapui.analytics.AnalyticsManager.<init>(AnalyticsManager.java:30)
+	at com.eviware.soapui.analytics.AnalyticsManager.getInstance(AnalyticsManager.java:35)
+	at com.eviware.soapui.analytics.Analytics.getAnalyticsManager(Analytics.java:16)
+	at com.eviware.soapui.analytics.AnalyticsHelper.initializeAnalytics(AnalyticsHelper.java:55)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:333)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:118)
+java.lang.NullPointerException
+	at com.eviware.soapui.analytics.providers.GoogleAnalyticsProvider.getMacAddressString(GoogleAnalyticsProvider.java:107)
+	at com.eviware.soapui.analytics.providers.GoogleAnalyticsProvider.buildParametersString(GoogleAnalyticsProvider.java:81)
+	at com.eviware.soapui.analytics.providers.GoogleAnalyticsProvider.trackAction(GoogleAnalyticsProvider.java:56)
+	at com.eviware.soapui.analytics.AnalyticsManager$3.run(AnalyticsManager.java:167)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:20:39,719 INFO  [WsdlProject] Loaded project from [file:/home/rahul/SeleniumPi/workspace/soaptest/Projects/Google-Maps-soapui-project.xml]
+20:20:39,738 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Sample Google Maps Project]
+20:20:39,739 INFO  [SoapUITestCaseRunner] Running TestCase [Simple Tests]
+20:20:39,819 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Simple Tests]
+20:20:39,842 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request]
+20:20:40,697 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+20:20:40,699 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331161200&sensor=false HTTP/1.1
+20:20:41,345 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+20:20:41,359 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+20:20:43,017 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+20:20:43,037 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with DST offset]
+20:20:43,044 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+20:20:43,048 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+20:20:43,049 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false HTTP/1.1
+20:20:43,147 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+20:20:43,149 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+20:20:43,180 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+20:20:43,183 INFO  [SoapUITestCaseRunner] running step [GET - Sample Request with localized response]
+20:20:43,190 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+20:20:43,193 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+20:20:43,193 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /maps/api/timezone/json?location=39.6034810%2C-119.6822510&timestamp=1331766000&sensor=false&language=es HTTP/1.1
+20:20:43,291 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+20:20:43,293 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+20:20:43,322 INFO  [SoapUITestCaseRunner] Assertion [Match content of [Response]] has status VALID
+20:20:43,345 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Simple Tests], time taken: 1497ms, status: FINISHED
+20:20:43,347 INFO  [SoapUITestCaseRunner] TestCase [Simple Tests] finished with status [FINISHED] in 1497ms
+
+SoapUI 5.3.0 TestCaseRunner Summary
+-----------------------------
+Time Taken: 3608ms
+Total TestSuites: 0
+Total TestCases: 1 (0 failed)
+Total TestSteps: 3
+Total Request Assertions: 3
+Total Failed Assertions: 0
+Total Exported Results: 3
+Finished: SUCCESS
